@@ -1,0 +1,52 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Binario a decimal</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script>
+        <script src="binario.js"></script>
+    </head>
+    <body>
+        <h1>Convertidor de Binario a decimal</h1>
+        <div>
+            <label>Por favor digite su numero binario no mayo a 8 digitos: </label>
+        </div> 
+        <div> 
+            <input type="text" name="" id="txt_binario">
+        </div>
+        <br>
+        <div>
+            <button id="btn_convertir">convertir</button>
+        </div>
+        <br>   
+        <div>
+                <label>Valor en Decimal: </label>
+        </div>  
+        <div> 
+            <input type="text" name="" id="txt_resultado" readonly>
+        </div>
+        <br>
+        <div>
+            <table>
+                <tr>
+                    <th>Signo |</th>
+                    <th> Exponente en Binario |</th>
+                    <th> Exponente en Decimal |</th>
+                    <th> Exponente del 2 | </th>
+                    <th> Fracción en Binario | </th>
+                    <th> Fraccion Aumentada | </th>
+                </tr>
+                <tr>
+                    <td id="signo">0</td>
+                    <td id="exp_binario">0</td>
+                    <td id="exponente">0</td>
+                    <td id="exponente">0</td>
+                    <td id="fraccion_binario">0</td>
+                    <td id="fraccion_aumentada">0</td>
+                </tr>
+            </table>           
+        </div>
+    </body>
+    </html>
